@@ -61,7 +61,7 @@ ${darkMode ? "border-gray-600" : "border-gray-300"} focus:ring-2 focus:ring-blue
                 </div>
                 <div>
                     <label className="mb-2" htmlFor="description">Description</label>
-                    <input type="text" name="description"   className={`w-full rounded-lg p-2 border
+                    <textarea name="description"   className={`w-full rounded-lg p-2 border
 ${darkMode ? "border-gray-600" : "border-gray-300"} focus:ring-2 focus:ring-blue-400 focus:outline-none`} id="description" value={addTask.description} placeholder="Enter Description" onChange={(e) => setAddTask({...addTask, description: e.target.value})} />
                 </div>
                  <div className="mb-5">

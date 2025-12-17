@@ -70,14 +70,14 @@ export default function EditTaskModal({
                 <label className="mb-2 font-medium" htmlFor="description">
                   Description
                 </label>
-                <input
+                <textarea
                   placeholder="Enter description"
                   id="description"
                   name="description"
                     className={`w-full rounded-lg p-2 border
                     ${darkMode ? "border-gray-600" : "border-gray-300"}
                     focus:ring-2 focus:ring-blue-400 focus:outline-none`}
-                  type="text"
+                  
                   value={editTask?.description || ""}
                   onChange={(e) =>
                     setEditTask((prev) =>
