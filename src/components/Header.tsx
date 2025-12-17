@@ -94,10 +94,12 @@ export default function Header() {
       {modalOpen && (
         <>
           <AddTaskModal
+          columnId="todo"
             onClose={() => setModalOpen(false)}
             onAdd={(task) => {
               dispatch(addTask(task));
             }}
+
           />
         </>
       )}
