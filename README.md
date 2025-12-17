@@ -1,1 +1,1 @@
-deploy link - new-kanban-app-h91k.vercel.app
+deploy url - new-kanban-app-h91k.vercel.app
